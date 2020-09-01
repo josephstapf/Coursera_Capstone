@@ -1,4 +1,4 @@
-  #Data Description
+# Data Description
 
 The data I am using to approach this problem is a labeled data set. I am only incorporating labeled data because it is necessary
 for my supervised machine learning approach. The label for the dataset is severity, which describes the severity/fatality of a 
