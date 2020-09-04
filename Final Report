@@ -1,0 +1,15 @@
+Vehicle collisions are one of the top contributors to injuries and deaths in the US. In our data, we are able to analyze 
+the collisions in Seattle over a 15 year time period. The significant attributes that I utitilized in order to model the data were
+the number of people involved in the collision, the number of vehicles involved in the collision, the weather conditions at the time 
+of the collision, the road conditions at the time of the collision, teh lighting conditions at the time of the collision, whether or not
+the driver was speeding, and the type of road junction that the accident occured in. I utilized the following machine learning techniques 
+in order to predict the likelihood of an accident based on these conditions: KNN, Logistic Regression, and Decision Tree. 
+
+I measured the accuracy of each model against one another with the jaccard prediction accuracy score. The following results were produced.
+
+KNN:0.719815	
+Decision Tree: 0.742468
+Logistic Regression: 0.727854	
+
+The accuracy of each model represented similar score, but the decision tree model had the best accuracy of about 75%. This represents this model 
+having the best likelihood of explaining to someone when they are most likely to get into a vehicle crash. 
